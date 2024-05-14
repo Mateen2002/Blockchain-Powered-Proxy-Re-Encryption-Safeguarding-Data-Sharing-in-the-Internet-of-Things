@@ -14,6 +14,5 @@
    out.println("</script>");
         RequestDispatcher rd=request.getRequestDispatcher("/authowner.jsp");  
         rd.include(request, response);  
-  
-
+        
 %>
