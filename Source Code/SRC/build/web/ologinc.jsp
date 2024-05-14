@@ -10,6 +10,7 @@
    Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Proxy","root","root");
    PreparedStatement ps=con.prepareStatement("Select * from oreg Where user='"+user+"' and pass='"+pass+"'and status='Activated'  ");
  
+ 
  System.out.println(ps);
    ResultSet d= ps.executeQuery();
   System.out.println(ps);

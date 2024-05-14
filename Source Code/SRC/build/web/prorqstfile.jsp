@@ -10,7 +10,6 @@
             String tkey=request.getParameter("tkey");
             String uid=session.getAttribute("id").toString();
             String uname=session.getAttribute("user").toString();
-           
             
             int i=1;
             Class.forName("com.mysql.jdbc.Driver");

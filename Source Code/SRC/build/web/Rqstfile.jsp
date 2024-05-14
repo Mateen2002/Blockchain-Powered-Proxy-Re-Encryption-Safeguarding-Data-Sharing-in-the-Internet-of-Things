@@ -10,6 +10,7 @@
             String uname=session.getAttribute("user").toString();
             String emial=session.getAttribute("email").toString();
             
+            
             int i=1;
             Class.forName("com.mysql.jdbc.Driver");
             Connection con=DriverManager.getConnection("jdbc:mysql://localhost/proxy","root","root");
