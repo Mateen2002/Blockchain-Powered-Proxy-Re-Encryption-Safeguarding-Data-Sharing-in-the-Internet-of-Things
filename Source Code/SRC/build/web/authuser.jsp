@@ -44,7 +44,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-          <h1><a href="index.html">Proxy<span style="color:#0dcaf0;">Encryption<span></a></h1>
+          <h1><a href="index.html"> Proxy<span style="color:#0dcaf0;">Encryption<span></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
